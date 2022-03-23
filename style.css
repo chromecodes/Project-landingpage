@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 ul {
@@ -26,10 +26,137 @@ a {
     font-size: 24px;
     font-weight: bold;
     padding: 18px;
-    margin-left: 16px;
+    margin-left: 68px;
 }
 .links {
     font-size: 18px;
     color: #e5e7eb;
     margin-right: 56px;
+}
+.s1 {
+    background-color: #1f2937;
+    height: 480px;
+    display: flex;
+    align-items: center;
+
+}
+.l1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px 86px;
+    justify-items: center;
+    width: 420px;
+}
+.l2 {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 12px 86px;
+    width: 420px;
+}
+.b1 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-weight: bolder;
+    border: 0px;
+    font-size: 18px;
+    margin: 0px 86px;
+    padding: 8px 36px;
+    border-radius: 8px;
+    width: 140px;
+    flex: 0 1 0;
+}
+.ph {
+    margin-left: 100px;
+    width: 360px;
+}
+
+.s2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.c21 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 80px;
+}
+.box {
+    height: 144px;
+    width: 144px;
+    border: 50px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+.c22 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+.bc {
+    width: 144px;
+}
+.s3 {
+    height: 360px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+.q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0% 18%;
+}
+.w {
+    align-self: flex-end;
+}
+.s4 {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.long {
+    width: 820px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.s411 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+.s412 {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+}
+.s42 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 36px;
+    border-radius: 8px;
+    width: 150px;
+    border: 2px solid;
+    border-color: #f9faf8;
+}
+footer {
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
